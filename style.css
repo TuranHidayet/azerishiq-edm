@@ -35,13 +35,19 @@ body {
     position: relative;
 }
 
+.hero-text{
+    padding: 100px 0;
+
+}
+
 .bcg-image{
     background-image: url('./images/heyayay 1 1.png');
-    background-size: contain;
+    /* background-size: contain; */
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    height: 750px;
+    position: relative;
 }
 
 .page-title{
@@ -73,7 +79,7 @@ body {
 }
 
 .stats-card:hover .text-muted {
-    color: #2E6B50;
+    color: #2E6B50 !important;
 }
 
 .stats-card:hover .stats-number {
@@ -81,14 +87,15 @@ body {
 }
 
 .stats-icon {
-    font-size: 2.5rem;
-    color: var(--primary);
-    margin-bottom: 10px;
+    transition: filter 0.1s ease-in-out;
+}
+
+.stats-card:hover .stats-icon{
+    filter: brightness(0) saturate(100%) invert(36%) sepia(17%) saturate(508%) hue-rotate(120deg) brightness(92%) contrast(86%);
 }
 
 .stats-number {
     font-size: 2.5rem;
-    /* font-weight: bold; */
     color: var(--primary);
     margin-bottom: 5px;
 }
@@ -119,11 +126,12 @@ body {
     display: inline-block;
 }
 
-.bcg-image {
-    position: relative;
+/* .bcg-image {
+    
     width: 100%;
+    height: 753px;
     color: #2C6854;
-}
+} */
 
 .section-title:after {
     content: '';
@@ -136,6 +144,10 @@ body {
 
 .app-section {
     padding: 60px 0;
+}
+
+.qr-codes > div{
+    align-self: end;
 }
 
 .qr-code {
@@ -321,8 +333,6 @@ body {
     border-radius: 2px;
 }
 
-
-
 @media (max-width: 768px) {
     .hero-section {
         text-align: center;
@@ -417,9 +427,6 @@ section {
     justify-content: center;
 }
 
-.benefit-icon img {
-    max-height: 100%;
-}
 
 .download-badge {
     height: 40px;
