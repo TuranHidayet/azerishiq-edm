@@ -44,6 +44,14 @@ body {
     height: 100vh;
 }
 
+.page-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #2C6854;
+    padding-left: 100px;
+}
+
 .hero-image {
     max-width: 100%;
 }
@@ -59,7 +67,17 @@ body {
 
 .stats-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background-color: #2E6B50;
+    color: #fff;
+}
+
+.stats-card:hover .text-muted {
+    color: #2E6B50;
+}
+
+.stats-card:hover .stats-number {
+    color: #2E6B50;
 }
 
 .stats-icon {
@@ -112,13 +130,11 @@ body {
     position: absolute;
     left: 0;
     bottom: -10px;
-    widttext-muted: 50px;
     height: 3px;
     background-color: var(--primary);
 }
 
 .app-section {
-    background-color: var(--light-bg);
     padding: 60px 0;
 }
 
@@ -349,7 +365,6 @@ body {
     z-index: 1;
 }
 
-/* Section styling */
 section {
     position: relative;
     padding: 60px 0;
@@ -361,7 +376,6 @@ section {
     color: #2C6854;
 }
 
-/* Stats cards */
 .stats-card {
     padding: 20px;
     border-radius: 10px;
@@ -382,7 +396,6 @@ section {
     color: #D1B180;
 }
 
-/* Benefit cards */
 .benefit-card {
     background-color: white;
     padding: 25px 15px;
@@ -408,7 +421,6 @@ section {
     max-height: 100%;
 }
 
-/* Download badges */
 .download-badge {
     height: 40px;
 }
@@ -418,14 +430,12 @@ section {
     height: 80px;
 }
 
-/* App mockup */
 .app-mockup {
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-/* Provider section */
 .provider-section {
     background-color: #f8f9fa;
 }
@@ -436,7 +446,6 @@ section {
     object-fit: cover;
 }
 
-/* For responsive design */
 @media (max-width: 992px) {
     .vertical-line, .horizontal-line {
         display: none; /* Hide connectors on mobile */
