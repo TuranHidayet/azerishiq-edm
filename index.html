@@ -36,11 +36,18 @@
                             <a class="nav-link" href="./about.html">Haqqımızda</a>
                         </li>
                     </div>
-                    <li class="nav-item">
-                        <a  class="nav-link" href="#"><i style="color: #D1B180;" class="bi bi-globe2"></i> AZ</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i style="color: #D1B180;" class="bi bi-globe2"></i> <span id="selectedLang">AZ</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item lang-option" href="#" data-lang="az">Azərbaycan</a></li>
+                            <li><a class="dropdown-item lang-option" href="#" data-lang="en">English</a></li>
+                            <li><a class="dropdown-item lang-option" href="#" data-lang="ru">Русский</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a  class="nav-link" href="#"><i style="color: #D1B180;" class="bi bi-telephone"></i> 199</a>
+                    <li class="nav-item mx-3">
+                        <a  class="nav-link" href="tel:199"><i style="color: #D1B180;" class="bi bi-telephone"></i> 199</a>
                     </li>
                 </ul>
             </div>
@@ -50,9 +57,9 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
-            <div class="row align-items-center bcg-image">
-                <div class="col-lg-6 hero-text">
-                    <h1 class="fw-bold mb-4 margin-left" style="margin-left: 200px; color: #6D5B43;">Ölkə üzrə Elektrikdoldurma Məntəqələrindən Rahat istifadə imkanı!</h1>
+            <div class="row bcg-image">
+                <div class="hero-text col-lg-5">
+                    <h1 class="fw-bold mb-4">Ölkə üzrə Elektrikdoldurma Məntəqələrindən Rahat istifadə imkanı!</h1>
                 </div>
             </div>
             <img style="width: 100%;" src="./images/Rectangle 2.png" alt="">
@@ -60,7 +67,6 @@
 
     <!-- App Section -->
     <section class="app-section">
-        <!-- <div class="line"></div> -->
         <div class="container section ">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -114,7 +120,6 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -361,7 +366,7 @@ Elektrik enerji paylanmasının effektiv koordinasiyası,
                         <div class="col-md-4 mb-4">
                             <h5>HAQQIMIZDA</h5>
                             <ul class="list-unstyled d-flex flex-column gap-2">
-                                <li><a href="#">Məntəqələr</a></li>
+                                <li><a href="./locations.html">Məntəqələr</a></li>
                                 <li><a href="#">Yeniliklər</a></li>
                                 <li><a href="./faq.html">Tez-tez Verilən Suallar</a></li>
                             </ul>
@@ -376,9 +381,9 @@ Elektrik enerji paylanmasının effektiv koordinasiyası,
                         <div class="col-md-4 mb-4">
                             <h5>Əlaqə</h5>
                             <ul class="list-unstyled d-flex flex-column gap-2">
-                                <li><a href="tel:+994124853903"><i class="bi bi-telephone me-2"></i>+994 12 546 03 03</a></li>
+                                <li><a href="tel:+994125460303"><i class="bi bi-telephone me-2"></i>+994 12 546 03 03</a></li>
                                 <li><a href="#"><i class="bi bi-geo-alt me-2"></i>Mirzə Ağa Əliyev</a></li>
-                                <li><a href="mailto:info@azeriisig.az"><i class="bi bi-envelope me-2"></i>vep@azerishiq.az</a></li>
+                                <li><a href="mailto:vep@azerishiq.az"><i class="bi bi-envelope me-2"></i>vep@azerishiq.az</a></li>
                                 <li><a href="#"><i class="bi bi-building me-2"></i>199 Çağrı mərkəzi</a></li>
                             </ul>
                         </div>
@@ -392,5 +397,8 @@ Elektrik enerji paylanmasının effektiv koordinasiyası,
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"> </script>
+
+    <script></script>
 </body>
 </html>
