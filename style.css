@@ -5,9 +5,7 @@
 }
 
 body {
-    font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
-    overflow-x: hidden;
+    
 }
 
 .navbar {
@@ -688,7 +686,7 @@ section {
     width: 25px;
     height: 40px;
     border-radius: 50%; 
-    animation: moveUp 15s infinite linear; 
+    animation: moveUp 10s infinite linear; 
 }
 
 /* Animasiya tərifi */
