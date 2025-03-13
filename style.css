@@ -4,8 +4,8 @@
     --light-bg: #f8f9fa;
 }
 
-body {
-    
+body{
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -686,7 +686,7 @@ section {
     width: 25px;
     height: 40px;
     border-radius: 50%; 
-    animation: moveUp 10s infinite linear; 
+    animation: moveUp 15s infinite linear; 
 }
 
 /* Animasiya tərifi */
