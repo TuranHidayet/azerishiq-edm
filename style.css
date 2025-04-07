@@ -76,6 +76,8 @@ body{
     position: relative;
 }
 
+
+
 .page-title{
     font-size: 30px;
     font-weight: 700;
@@ -832,6 +834,7 @@ section {
         bottom: 3092px; 
     }
 }
+
 /* ------------End Animation-------------- */
 
 
@@ -860,6 +863,244 @@ section {
 @media screen and (max-width: 768px) {
     .table-responsive table {
         min-width: 768px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .animation::before,
+    .animation::after,
+    .animation-2::before,
+    .animation-2::after,
+    .animation-3::before,
+    .animation-3::after,
+    .animation-4::before,
+    .animation-4::after,
+    .animation-5::before,
+    .animation-5::after,
+    .animation-6::before,
+    .animation-6::after {
+        content: none !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .animation::before,
+    .animation::after,
+    .animation-2::before,
+    .animation-2::after,
+    .animation-3::before,
+    .animation-3::after,
+    .animation-4::before,
+    .animation-4::after,
+    .animation-5::before,
+    .animation-5::after,
+    .animation-6::before,
+    .animation-6::after {
+        content: none !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .animation {
+        animation: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .animation {
+        animation: none !important;
+    }
+}
+
+@media (max-width: 1439px) {
+    /* ::before və ::after pseudo-elementlərini gizlət */
+    .animation::after,
+    .animation::before,
+    .animation-2::after,
+    .animation-2::before,
+    .animation-3::after,
+    .animation-3::before,
+    .animation-4::after,
+    .animation-4::before,
+    .animation-5::after,
+    .animation-5::before,
+    .animation-6::after {
+        display: none;
+    }
+
+    /* Animasiya property-sini sıfırla */
+    .animation-6 .icon {
+        animation: none;
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Ekran genişliyi 992px-dən kiçik olduqda */
+    .app-section .row {
+        flex-direction: column; /* Sütunlara çevir */
+        align-items: center; /* Mərkəzləşdir */
+    }
+
+    .app-section .col-lg-6 {
+        width: 100%; /* Hər iki sütunu tam genişlikdə göstər */
+        text-align: center; /* Mətni mərkəzləşdir */
+    }
+
+    .app-section img.img-fluid {
+        max-width: 100%; /* Şəkilləri ekran genişliyinə uyğunlaşdır */
+        height: auto;
+    }
+
+    .qr-codes > div {
+        align-self: center; /* QR kodlarını mərkəzləşdir */
+    }
+
+    .qr-code {
+        max-width: 100%; /* Kiçik ekranlarda QR kodlarının ölçüsünü azalt */
+    }
+
+    .download-badge {
+        max-width: 120px; /* Badge-lərin ölçüsünü azalt */
+    }
+
+    .hero-text h1 {
+        font-size: 36px; /* Başlığın ölçüsünü azalt */
+    }
+
+    .bcg-image {
+        height: 80vh; /* Ekran hündürlüyünü azalt */
+    }
+
+    .bg_img_bottom{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .qr-codes {
+        flex-direction: column; /* QR kodlarını sütuna çevir */
+        align-items: center; /* Mərkəzləşdir */
+    }
+
+    .qr-code {
+        max-width: 80px; /* QR kodlarının ölçüsünü azalt */
+    }
+
+    .download-badge {
+        max-width: 120px; /* Badge-lərin ölçüsünü azalt */
+    }
+
+    .section-title {
+        font-size: 28px; /* Başlığın ölçüsünü azalt */
+    }
+
+    .text-muted {
+        font-size: 14px; /* Mətnlərin ölçüsünü azalt */
+    }
+
+    .hero-text h1 {
+        font-size: 30px; /* Başlığın ölçüsünü daha da azalt */
+    }
+
+    .bcg-image {
+        height: 60vh; /* Ekran hündürlüyünü daha da azalt */
+    }
+
+    .bg_img_bottom{
+        display: none;
+    }
+}
+
+/* Mobil M (361px - 480px) */
+@media (max-width: 480px) and (min-width: 361px) {
+    .qr-codes {
+        flex-direction: column; /* QR kodlarını sütuna çevir */
+        align-items: center; /* Mərkəzləşdir */
+    }
+
+    .qr-code {
+        max-width: 100%; /* QR kodlarının ölçüsünü daha da azalt */
+    }
+
+    .download-badge {
+        max-width: 100px; /* Badge-lərin ölçüsünü daha da azalt */
+    }
+
+    .section-title {
+        font-size: 24px; /* Başlığın ölçüsünü daha da azalt */
+    }
+
+    .text-muted {
+        font-size: 12px; /* Mətnlərin ölçüsünü daha da azalt */
+    }
+
+    .hero-text h1 {
+        margin-left: 0;
+        font-size: 24px !important; /* Başlığın ölçüsünü minimuma endir */
+    }
+
+    .bcg-image {
+        width: 100%;
+        height: 100vh; /* Ekran hündürlüyünü minimuma endir */
+        background-size: cover; 
+    }
+    .bg_img_bottom{
+        display: none;
+    }
+}
+
+/* Mobil S (0px - 360px) */
+@media (max-width: 360px) {
+    .qr-codes {
+        flex-direction: column; /* QR kodlarını sütuna çevir */
+        align-items: center; /* Mərkəzləşdir */
+    }
+
+    .qr-code {
+        max-width: 100%; /* QR kodlarının ölçüsünü minimuma endir */
+    }
+
+    .download-badge {
+        max-width: 80px; /* Badge-lərin ölçüsünü minimuma endir */
+    }
+
+    .section-title {
+        font-size: 20px; /* Başlığın ölçüsünü minimuma endir */
+    }
+
+    .text-muted {
+        font-size: 10px; /* Mətnlərin ölçüsünü minimuma endir */
+    }
+
+    .app-section img.img-fluid {
+        max-width: 100%; /* Şəkillərin ölçüsünü ekran genişliyinə uyğunlaşdır */
+        height: auto;
+    }
+    .bg_img_bottom{
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    /* 320px üçün */
+    .hero-text h1 {
+        font-size: 18px !important; /* Başlığın ölçüsünü ən kiçik ölçüyə endir */
+        line-height: 1.2; /* Satır aralığını saxla */
+        margin-bottom: 10px; /* Alt boşluğu azalt */
+    }
+
+    .text-muted h5{
+        font-size: 10px !important;
+    }
+
+    .bcg-image {
+        height: 30vh; /* Ekran hündürlüyünü daha da azalt */
+    }
+
+    .hero-section {
+        padding: 10px; /* İçəridən boşluq artır */
     }
 }
 
