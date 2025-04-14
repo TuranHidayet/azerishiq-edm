@@ -1,0 +1,1493 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "latitude": 40.4012,
+        "longitude": 49.85071,
+        "name": "Atatürk Parkı",
+        "address": "Atatürk prospekti 5, Bakı, Nərimanov",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 1,
+            "state": 1,
+            "latitude": 40.4012,
+            "longitude": 49.85071,
+            "sticker": 1,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "state": 1,
+            "latitude": 40.4012,
+            "longitude": 49.85074,
+            "sticker": 1,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "latitude": 40.40457,
+        "longitude": 49.81341,
+        "name": "Dağlıq Yarımstansiyası",
+        "address": "Cavad Xan küçəsi, Bakı, Nəsimi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 3,
+            "state": 1,
+            "latitude": 40.40457,
+            "longitude": 49.81341,
+            "sticker": 2,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "state": 1,
+            "latitude": 40.40457,
+            "longitude": 49.81344,
+            "sticker": 2,
+            "outlets": [8],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "latitude": 40.388884,
+        "longitude": 49.893253,
+        "name": "Ağ Şəhər( TM 7)",
+        "address": "Ağ Şəhər (TM 7), Bakı, Xətai",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 5,
+            "state": 1,
+            "latitude": 40.388884,
+            "longitude": 49.893253,
+            "sticker": 3,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "state": 1,
+            "latitude": 40.388884,
+            "longitude": 49.893283,
+            "sticker": 3,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "latitude": 40.388884,
+        "longitude": 49.893253,
+        "name": "Ağ Şəhər( TM 7)",
+        "address": "Ağ Şəhər (TM 7), Bakı, Xətai",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 7,
+            "state": 1,
+            "latitude": 40.388884,
+            "longitude": 49.893253,
+            "sticker": 4,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "state": 1,
+            "latitude": 40.388884,
+            "longitude": 49.893283,
+            "sticker": 4,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "latitude": 40.38887,
+        "longitude": 49.89302,
+        "name": "0100000046, Ağ Şəhər( TM 7)",
+        "address": "Ağ Şəhər (TM 7), Bakı, Xətai",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 9,
+            "state": 0,
+            "latitude": 40.38887,
+            "longitude": 49.89302,
+            "sticker": 5,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "state": 0,
+            "latitude": 40.38887,
+            "longitude": 49.89305,
+            "sticker": 5,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "latitude": 40.3887,
+        "longitude": 49.89297,
+        "name": "Ağ Şəhər( TM 7)",
+        "address": "Ağ Şəhər (TM 7), Bakı, Xətai",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 11,
+            "state": 0,
+            "latitude": 40.3887,
+            "longitude": 49.893,
+            "sticker": 6,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "state": 0,
+            "latitude": 40.3887,
+            "longitude": 49.89297,
+            "sticker": 6,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "latitude": 40.4012,
+        "longitude": 49.85071,
+        "name": "Atatürk Parkı",
+        "address": "Atatürk prospekti 5, Bakı, Nərimanov",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 13,
+            "state": 1,
+            "latitude": 40.4012,
+            "longitude": 49.85071,
+            "sticker": 7,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "state": 1,
+            "latitude": 40.4012,
+            "longitude": 49.85074,
+            "sticker": 7,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "latitude": 40.38654,
+        "longitude": 49.88749,
+        "name": "Ağ Şəhər (TM 8)",
+        "address": "Ağ Şəhər (TM 8), Bakı, Xətai",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 15,
+            "state": 0,
+            "latitude": 40.38654,
+            "longitude": 49.88752,
+            "sticker": 8,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "state": 0,
+            "latitude": 40.38654,
+            "longitude": 49.88749,
+            "sticker": 8,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "latitude": 40.38649,
+        "longitude": 49.88773,
+        "name": "Ağ Şəhər (TM 8)",
+        "address": "Ağ Şəhər (TM 8), Bakı, Xətai",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 17,
+            "state": 0,
+            "latitude": 40.38649,
+            "longitude": 49.88776,
+            "sticker": 9,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "state": 0,
+            "latitude": 40.38649,
+            "longitude": 49.88773,
+            "sticker": 9,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "latitude": 40.386575,
+        "longitude": 49.888018,
+        "name": "Ağ Şəhər (TM 8)",
+        "address": "Ağ Şəhər (TM 8), Bakı, Xətai",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 19,
+            "state": 1,
+            "latitude": 40.386575,
+            "longitude": 49.888018,
+            "sticker": 10,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "state": 1,
+            "latitude": 40.386575,
+            "longitude": 49.888048,
+            "sticker": 10,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "latitude": 40.386575,
+        "longitude": 49.888018,
+        "name": "Ağ Şəhər (TM 8)",
+        "address": "Ağ Şəhər (TM 8), Bakı, Xətai",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 21,
+            "state": 1,
+            "latitude": 40.386575,
+            "longitude": 49.888018,
+            "sticker": 11,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "state": 1,
+            "latitude": 40.386575,
+            "longitude": 49.888048,
+            "sticker": 11,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "latitude": 40.386575,
+        "longitude": 49.888018,
+        "name": "Ağ Şəhər (TM 8)",
+        "address": "Ağ Şəhər (TM 8), Bakı, Xətai",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 23,
+            "state": 1,
+            "latitude": 40.386575,
+            "longitude": 49.888018,
+            "sticker": 12,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "state": 1,
+            "latitude": 40.386575,
+            "longitude": 49.888048,
+            "sticker": 12,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "latitude": 40.386575,
+        "longitude": 49.888018,
+        "name": "Ağ Şəhər (TM 8)",
+        "address": "Ağ Şəhər (TM 8), Bakı, Xətai",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 25,
+            "state": 1,
+            "latitude": 40.386575,
+            "longitude": 49.888018,
+            "sticker": 13,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "state": 1,
+            "latitude": 40.386575,
+            "longitude": 49.888048,
+            "sticker": 13,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "latitude": 40.40457,
+        "longitude": 49.81341,
+        "name": "Dağlıq Yarımstansiyası",
+        "address": "Cavad Xan küçəsi, Bakı, Nəsimi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 27,
+            "state": 1,
+            "latitude": 40.40457,
+            "longitude": 49.81341,
+            "sticker": 14,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "state": 1,
+            "latitude": 40.40457,
+            "longitude": 49.81344,
+            "sticker": 14,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 29,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 15,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 15,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 31,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 16,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 16,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 33,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 17,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 17,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "providerDescription": "\"Green Charging\" MMC",
+        "connectors": [
+          {
+            "id": 35,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 18,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 18,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 37,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 19,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 19,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 39,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 20,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 20,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 41,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 21,
+            "outlets": [4, 7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 21,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "connectors": [
+          {
+            "id": 43,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 22,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 22,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 45,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 23,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 23,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 47,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 24,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 24,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 49,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 25,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 50,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 25,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "latitude": 40.392768,
+        "longitude": 49.865021,
+        "name": "0070000016, Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 51,
+            "state": 1,
+            "latitude": 40.392768,
+            "longitude": 49.865021,
+            "sticker": 26,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 52,
+            "state": 1,
+            "latitude": 40.392768,
+            "longitude": 49.865051,
+            "sticker": 26,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 53,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 27,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 54,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 27,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 55,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 28,
+            "outlets": [4, 7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 56,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 28,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "latitude": 40.39289,
+        "longitude": 49.8648,
+        "name": "Heydər Əliyev Mərkəzi",
+        "address": "Gülarə Qədirbəyova küçəsi, 1, Bakı, Nərimanov",
+        "locationDescription": "Heydər Əliyev Mərkəzi",
+        "providerDescription": "\"Green Charging\" MMC",
+        "accessDescription": "Sərbəst",
+        "connectors": [
+          {
+            "id": 57,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.8648,
+            "sticker": 29,
+            "outlets": [4],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          },
+          {
+            "id": 58,
+            "state": 1,
+            "latitude": 40.39289,
+            "longitude": 49.86483,
+            "sticker": 29,
+            "outlets": [7],
+            "power": 120,
+            "price": 0.26,
+            "tariffs": [
+              {
+                "id": 3,
+                "name": "PER_KWA_DC",
+                "withPreAuthorization": true,
+                "preAuthorizationAmount": 10,
+                "kwhPrice": 0.26,
+                "isBookable": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
