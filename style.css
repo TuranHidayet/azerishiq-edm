@@ -6,7 +6,9 @@
 
 body{
     overflow-x: hidden;
+    font-family: poppins, sans-serif;
 }
+
 
 .navbar {
     position: fixed;
@@ -39,6 +41,20 @@ body{
     height: 40px;
 }
 
+.navbar-brand {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  .navbar-toggler {
+    margin-left: auto;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+  }
+
 .btn-primary {
     background-color: var(--primary);
     border-color: var(--primary);
@@ -60,34 +76,49 @@ body{
     position: relative;
 }
 
-.hero-text h1{
-    margin-top: 230px;
-    margin-left: 200px;
-    color: #6D5B43;
-}
-
-.bcg-image{
+/* .bcg-image {
     background-image: url('./images/pngillustartion.png');
-    /* background-size: contain; */
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
     height: 750px;
     position: relative;
-}
+} */
 
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain; 
+    display: block;
+  }
 
-
-.page-title{
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 40px;
-    color: #2C6854;
-    padding-left: 100px;
-}
-
-.hero-image {
-    max-width: 100%;
+  .hero-section {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Yazını şəklin üzərində yerləşdirmək üçün */
+  .hero-text {
+    position: absolute;
+    max-width: 700px;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .hero-text h1{
+    color: #6D5B43;
 }
 
 .stats-card {
@@ -294,6 +325,11 @@ body{
 
 /* locations-page */
 
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
 .edm-heading{ 
     font-size: 30px;
     font-weight: 700;
@@ -376,6 +412,16 @@ body{
     padding-top: 15px;
 }
 
+.location-table .address{
+    border-collapse: separate;
+    border-spacing: 0 15px; 
+    width: 100%;
+    height: 12px;
+    width: 67px;
+    font-size: 10.27px;
+    line-height: 12px;
+}
+
 .icon-loc{
     width: 25px;
     height: 25px;
@@ -423,6 +469,7 @@ body{
 }
 
 .input-group{
+    width: 306px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
@@ -453,16 +500,16 @@ body{
 }
 
 .ol-popup {
-    position: absolute;
+    /* position: absolute; */
     background-color: white;
     box-shadow: 0 1px 4px rgba(0,0,0,0.2);
     padding: 15px;
     border-radius: 10px;
     border: 1px solid #cccccc;
-    bottom: 12px;
-    left: -50px;
-    min-width: 280px;
-    max-width: 400px;
+    /* bottom: 12px;
+    left: -50px; */
+    /* min-width: 280px;
+    max-width: 400px; */
 }
 
 .ol-popup:after, .ol-popup:before {
@@ -536,7 +583,7 @@ body{
     z-index: 1000;
     text-align: center;
 }
-
+  
 
 /* Connector lines styles */
 .connector-container {
@@ -850,15 +897,200 @@ section {
 }
 
 /* ------------End Animation-------------- */
+@media (max-width: 1441px) {
+    .animation::after,
+    .animation::before,
+    .animation-2::after,
+    .animation-2::before,
+    .animation-3::after,
+    .animation-3::before,
+    .animation-4::after,
+    .animation-4::before,
+    .animation-5::after,
+    .animation-5::before,
+    .animation-6::after {
+        display: none;
+    }
 
+    .animation-6 .icon {
+        animation: none;
+        display: none;
+    }
+
+    .hero-text h1 {
+        font-size: 1.8rem !important; 
+    }
+
+    .hero-text {
+        top: 40%;
+        left: 30%;
+        max-width: 500px; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .animation::before,
+    .animation::after,
+    .animation-2::before,
+    .animation-2::after,
+    .animation-3::before,
+    .animation-3::after,
+    .animation-4::before,
+    .animation-4::after,
+    .animation-5::before,
+    .animation-5::after,
+    .animation-6::before,
+    .animation-6::after {
+        content: none !important;
+    }
+
+    .row > .col-lg-9,
+  .row > .col-lg-3 {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .row > .col-lg-3 {
+    order: 2; /* Əgər status aşağıda qalmalıdırsa */
+  }
+
+  .row > .col-lg-9 {
+    order: 1;
+  }
+
+    .animation {
+        animation: none !important;
+    }
+
+    .hero-text h1 {
+        font-size: 1.3rem !important; 
+    }
+
+    .hero-text {
+        top: 45%;
+        left: 30%;
+        max-width: 380px; 
+    }
+
+    .text-muted h5{
+        font-size: 0.8rem !important;
+    } 
+}
 
 @media (max-width: 992px) {
     .vertical-line, .horizontal-line {
         display: none;
     }
+
+    .navbar-collapse ul {
+        width: 100%;
+        text-align: center;
+      }
+      .navbar-collapse li {
+        margin-bottom: 10px;
+      }
+
+      .hero-text h1 {
+        font-size: 1.3rem !important; 
+    }
+
+    .hero-text {
+        top: 35%;
+        max-width: 350px; 
+    }
+
+    .app-section .row {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .app-section .col-lg-6 {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .app-section img.img-fluid {
+        max-width: 100%; 
+        height: auto;
+    }
+
+    .qr-codes > div {
+        align-self: center;
+    }
+
+    .qr-code {
+        max-width: 100%; 
+    }
+
+    .download-badge {
+        max-width: 120px; 
+    }
+
+    .hero-text h1 {
+        margin-left: 0;
+    }
+
+    .bcg-image {
+        height: 80vh; 
+    }
+
+    .bg_img_bottom{
+        display: none;
+    }
+    .input-group {
+        max-width: 220px;
+    }
 }
 
 @media (max-width: 768px) {
+    .animation::before,
+    .animation::after,
+    .animation-2::before,
+    .animation-2::after,
+    .animation-3::before,
+    .animation-3::after,
+    .animation-4::before,
+    .animation-4::after,
+    .animation-5::before,
+    .animation-5::after,
+    .animation-6::before,
+    .animation-6::after {
+        content: none !important;
+    }
+
+    .qr-codes {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .qr-code {
+        max-width: 80px;
+    }
+
+    .download-badge {
+        max-width: 120px; 
+    }
+
+    .section-title {
+        font-size: 28px; 
+    }
+
+    .text-muted {
+        font-size: 14px; 
+    }
+
+    .bcg-image {
+        height: 60vh; 
+    }
+
+    .bg_img_bottom{
+        display: none;
+    }
+
+    .animation {
+        animation: none !important;
+    }
+
     .hero-section {
         text-align: center;
         padding: 10px 0;
@@ -872,162 +1104,27 @@ section {
     .app-mockup {
         margin-bottom: 30px;
     }
-}
 
-@media screen and (max-width: 768px) {
     .table-responsive table {
         min-width: 768px;
     }
-}
-
-
-@media (max-width: 767px) {
-    .animation::before,
-    .animation::after,
-    .animation-2::before,
-    .animation-2::after,
-    .animation-3::before,
-    .animation-3::after,
-    .animation-4::before,
-    .animation-4::after,
-    .animation-5::before,
-    .animation-5::after,
-    .animation-6::before,
-    .animation-6::after {
-        content: none !important;
-    }
-}
-
-@media (max-width: 1024px) {
-    .animation::before,
-    .animation::after,
-    .animation-2::before,
-    .animation-2::after,
-    .animation-3::before,
-    .animation-3::after,
-    .animation-4::before,
-    .animation-4::after,
-    .animation-5::before,
-    .animation-5::after,
-    .animation-6::before,
-    .animation-6::after {
-        content: none !important;
-    }
-}
-
-@media (max-width: 1024px) {
-    .animation {
-        animation: none !important;
-    }
-}
-
-@media (max-width: 767px) {
-    .animation {
-        animation: none !important;
-    }
-}
-
-@media (max-width: 1439px) {
-    /* ::before və ::after pseudo-elementlərini gizlət */
-    .animation::after,
-    .animation::before,
-    .animation-2::after,
-    .animation-2::before,
-    .animation-3::after,
-    .animation-3::before,
-    .animation-4::after,
-    .animation-4::before,
-    .animation-5::after,
-    .animation-5::before,
-    .animation-6::after {
-        display: none;
-    }
-
-    /* Animasiya property-sini sıfırla */
-    .animation-6 .icon {
-        animation: none;
-        display: none;
-    }
-}
-
-@media (max-width: 992px) {
-    /* Ekran genişliyi 992px-dən kiçik olduqda */
-    .app-section .row {
-        flex-direction: column; /* Sütunlara çevir */
-        align-items: center; /* Mərkəzləşdir */
-    }
-
-    .app-section .col-lg-6 {
-        width: 100%; /* Hər iki sütunu tam genişlikdə göstər */
-        text-align: center; /* Mətni mərkəzləşdir */
-    }
-
-    .app-section img.img-fluid {
-        max-width: 100%; /* Şəkilləri ekran genişliyinə uyğunlaşdır */
-        height: auto;
-    }
-
-    .qr-codes > div {
-        align-self: center; /* QR kodlarını mərkəzləşdir */
-    }
-
-    .qr-code {
-        max-width: 100%; /* Kiçik ekranlarda QR kodlarının ölçüsünü azalt */
-    }
-
-    .download-badge {
-        max-width: 120px; /* Badge-lərin ölçüsünü azalt */
-    }
 
     .hero-text h1 {
-        font-size: 36px; /* Başlığın ölçüsünü azalt */
+        font-size: 1rem !important; 
     }
 
-    .bcg-image {
-        height: 80vh; /* Ekran hündürlüyünü azalt */
+    .hero-text {
+        top: 50%;
+        left: 30%;
+        max-width: 250px; 
     }
 
-    .bg_img_bottom{
-        display: none;
-    }
-}
-
-@media (max-width: 768px) and (min-width: 481px) {
-    .qr-codes {
-        flex-direction: column; /* QR kodlarını sütuna çevir */
-        align-items: center; /* Mərkəzləşdir */
-    }
-
-    .qr-code {
-        max-width: 80px; /* QR kodlarının ölçüsünü azalt */
-    }
-
-    .download-badge {
-        max-width: 120px; /* Badge-lərin ölçüsünü azalt */
-    }
-
-    .section-title {
-        font-size: 28px; /* Başlığın ölçüsünü azalt */
-    }
-
-    .text-muted {
-        font-size: 14px; /* Mətnlərin ölçüsünü azalt */
-    }
-
-    .hero-text h1 {
-        font-size: 30px; /* Başlığın ölçüsünü daha da azalt */
-    }
-
-    .bcg-image {
-        height: 60vh; /* Ekran hündürlüyünü daha da azalt */
-    }
-
-    .bg_img_bottom{
-        display: none;
+    .image-wrapper img{
+        min-height: 400px !important;
     }
 }
 
-/* Mobil M (361px - 480px) */
+
 @media (max-width: 480px) and (min-width: 361px) {
     .qr-codes {
         flex-direction: column; 
@@ -1051,70 +1148,89 @@ section {
     }
 
     .hero-text h1 {
-        margin-left: 0;
-        font-size: 24px !important; 
+        font-size: 0.7rem !important; 
     }
 
-    .bcg-image {
-        width: 100%;
-        height: 100vh; 
-        background-size: cover; 
+    .hero-text {
+        top: 50%;
+        left: 30%;
+        max-width: 200px; 
     }
+    
     .bg_img_bottom{
         display: none;
     }
+
+    .image-wrapper img{
+        min-height: 300px !important;
+    }
 }
 
-/* Mobil S (0px - 360px) */
-@media (max-width: 360px) {
+@media (max-width: 376px) {
     .qr-codes {
-        flex-direction: column; /* QR kodlarını sütuna çevir */
-        align-items: center; /* Mərkəzləşdir */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .qr-code {
-        max-width: 100%; /* QR kodlarının ölçüsünü minimuma endir */
+        max-width: 100%; 
     }
 
     .download-badge {
-        max-width: 80px; /* Badge-lərin ölçüsünü minimuma endir */
+        max-width: 80px; 
     }
 
     .section-title {
-        font-size: 20px; /* Başlığın ölçüsünü minimuma endir */
+        font-size: 20px;
     }
 
     .text-muted {
-        font-size: 10px; /* Mətnlərin ölçüsünü minimuma endir */
+        font-size: 10px; 
     }
 
     .app-section img.img-fluid {
-        max-width: 100%; /* Şəkillərin ölçüsünü ekran genişliyinə uyğunlaşdır */
+        max-width: 100%;
         height: auto;
     }
     .bg_img_bottom{
         display: none;
     }
+
+    .navbar-brand span{
+        font-size: 0.7rem !important;
+    }
+
+    .hero-text h1 {
+        font-size: 0.6rem !important; 
+    }
+
+    .hero-text {
+        top: 50%;
+        left: 30%;
+        max-width: 150px; 
+    }
+
+    .image-wrapper img{
+        min-height: 280px !important;
+    }
 }
 
 @media (max-width: 320px) {
-    /* 320px üçün */
-    .hero-text h1 {
-        font-size: 18px !important; /* Başlığın ölçüsünü ən kiçik ölçüyə endir */
-        line-height: 1.2; /* Satır aralığını saxla */
-        margin-bottom: 10px; /* Alt boşluğu azalt */
-    }
-
     .text-muted h5{
         font-size: 10px !important;
     }
 
     .bcg-image {
-        height: 30vh; /* Ekran hündürlüyünü daha da azalt */
+        width: 100%;
+        height: 70vh; 
     }
 
-    .hero-section {
-        padding: 10px; /* İçəridən boşluq artır */
+    .image-wrapper img{
+        min-height: 280px !important;
+    }
+    
+    .navbar-brand span{
+        font-size: 0.6rem !important;
     }
 }
 

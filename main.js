@@ -1,10 +1,12 @@
+const url = 'https://edm-prod1.azerishiq.az/api/resources/v2/chargings';
+// const url = './chargers.json';
+
 document.addEventListener('DOMContentLoaded', async function() {
     const loadingIndicator = document.getElementById('loading');
     const langOptions = document.querySelectorAll(".lang-option");
     const selectedLang = document.getElementById("selectedLang");
 
-    url1 = 'https://edm-prod1.azerishiq.az/api/resources/v2/chargings';
-    // url2 = 'http://127.0.0.1:5501/EDM/chargers.json';
+    
 
     function initLanguage() {
         const savedLang = localStorage.getItem("selectedLang") || "AZ";
@@ -22,11 +24,10 @@ document.addEventListener('DOMContentLoaded', async function() {
     async function loadDataFromAPI() {
         try {
             loadingIndicator.style.display = 'block';
-            const response = await fetch(url1, {
+            const response = await fetch(url, {
                 method: 'GET',
                 headers: {
-                  'Content-Type': 'application/json',
-                  'Accept': 'application/json'
+                  'Content-Type': 'application/json'
                 }
               });
             
@@ -73,7 +74,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
     function setupPopup(map) {
-        const container = document.getElementById('popup');
+        const container = document.getElementById('popup_map');
         const content = document.getElementById('popup-content');
         const overlay = new ol.Overlay({ element: container, autoPan: { animation: { duration: 250 } } });
         map.addOverlay(overlay);
@@ -156,7 +157,7 @@ function handleClick(element) {
   }
 
   const fetchData = async () => {
-    const targetUrl = "http://127.0.0.1:5501/EDM/chargers.json";
+    const targetUrl = url;
 
     try {
       const response = await fetch(targetUrl, {
@@ -169,22 +170,22 @@ function handleClick(element) {
 
       const data = await response.json();
 
-      // `data.data` istifadə edirik
-      return Array.isArray(data.data) ? data.data : []; // Əgər `data.data` array deyilsə, boş array qaytarırıq
+      
+      return Array.isArray(data.data) ? data.data : []; 
     } catch (error) {
       console.error("Data yüklənərkən xətaya düşdü:", error);
-      return []; // Hər hansı bir xətada boş array qaytarırıq
+      return []; 
     }
   };
 
   // Əsas funksiya - Cədvəl renderləmə
   const renderTable = async () => {
-    const stations = await fetchData(); // Asinxron olaraq məlumatı alırıq
+    const stations = await fetchData(); 
 
-    console.log("Stations Array:", stations); // Burada da stations-u yoxlayaq
+    console.log("Stations Array:", stations); 
 
     const tbody = document.getElementById("station-table-body");
-    tbody.innerHTML = ""; // Təhlükəsizlik üçün əvvəlki dataları təmizləyirik
+    tbody.innerHTML = ""; 
 
     // Əgər stations array-dirsə, `forEach` ilə işləyirik
     if (Array.isArray(stations)) {
@@ -194,10 +195,10 @@ function handleClick(element) {
         const row = document.createElement("tr");
         row.innerHTML = `
           <td>${index + 1}</td>
-          <td>Ağ şəhər-1 YS <br><span class="district">${station.name}</span></td>
-          <td>${station.address}</td>
-          <td>${station.accessDescription}</td>
-          <td>${connectorCount}</td>
+          <td><span class="district">${station.name ?? '-'}</span></td>
+          <td  class="address">${station.address ?? '-'}</td>
+          <td>${station.accessDescription ?? '-'}</td>
+          <td>${connectorCount ?? '-'}</td>
           <td class="status-cell">
             <img class="icon-loc" src="./images/iconlocation.png" alt="" data-index="${index}">
           </td>
@@ -346,3 +347,13 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 };
+
+ document.addEventListener("click", function (event) {
+    const navbarToggler = document.querySelector(".navbar-toggler");
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+
+    // Navbar içindəki kliklərdə bağlanmasın
+    if (!navbarCollapse.contains(event.target) && !navbarToggler.contains(event.target)) {
+      navbarCollapse.classList.remove("show");
+    }
+  });
